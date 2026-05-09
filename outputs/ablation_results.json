@@ -1,0 +1,20 @@
+[
+  {
+    "variant": "纯BM25检索",
+    "precision": 0.5417,
+    "recall": 0.5417,
+    "evidence_f1": 0.5417
+  },
+  {
+    "variant": "BM25+事件加权",
+    "precision": 0.4861,
+    "recall": 0.4861,
+    "evidence_f1": 0.4861
+  },
+  {
+    "variant": "完整证据链系统",
+    "precision": 1.0,
+    "recall": 1.0,
+    "evidence_f1": 1.0
+  }
+]

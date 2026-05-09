@@ -1,0 +1,88 @@
+{
+  "num_events": 84,
+  "num_qa": 13,
+  "event_type_counter": {
+    "kickoff": 1,
+    "shot_missed": 8,
+    "shot_blocked": 5,
+    "foul_committed": 15,
+    "foul_won": 15,
+    "corner": 10,
+    "shot_saved": 3,
+    "goal": 5,
+    "offside": 2,
+    "hand_ball": 2,
+    "half_time": 1,
+    "second_half_start": 1,
+    "yellow_card": 2,
+    "shot_post": 1,
+    "substitution": 10,
+    "full_time": 3
+  },
+  "team_counter": {
+    "无明确球队": 3,
+    "弗赖堡": 33,
+    "拜仁慕尼黑": 48
+  },
+  "half_counter": {
+    "上半场": 33,
+    "下半场": 51
+  },
+  "question_type_counter": {
+    "基础事实问答": 1,
+    "多时间跳跃": 1,
+    "球员事件链": 2,
+    "时间窗口推理": 1,
+    "事件聚集推理": 1,
+    "换人-进球关系": 1,
+    "球员进攻轨迹": 1,
+    "角色变化推理": 1,
+    "集合统计推理": 1,
+    "背景因果推理": 1,
+    "对比推理": 1,
+    "长距离证据": 1
+  },
+  "question_type_counter_raw": {
+    "match_result": 1,
+    "temporal_multi_hop": 1,
+    "player_event_chain": 2,
+    "temporal_window_reasoning": 1,
+    "event_cluster_reasoning": 1,
+    "substitution_to_goal": 1,
+    "player_progression": 1,
+    "role_change_reasoning": 1,
+    "set_reasoning": 1,
+    "causal_context": 1,
+    "comparative_reasoning": 1,
+    "long_range_evidence": 1
+  },
+  "evidence_length_counter": {
+    "1": 1,
+    "2": 3,
+    "3": 1,
+    "4": 1,
+    "5": 4,
+    "6": 2,
+    "10": 1
+  },
+  "ablation": [
+    {
+      "variant": "纯BM25检索",
+      "precision": 0.5417,
+      "recall": 0.5417,
+      "evidence_f1": 0.5417
+    },
+    {
+      "variant": "BM25+事件加权",
+      "precision": 0.4861,
+      "recall": 0.4861,
+      "evidence_f1": 0.4861
+    },
+    {
+      "variant": "完整证据链系统",
+      "precision": 1.0,
+      "recall": 1.0,
+      "evidence_f1": 1.0
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+[
+  {
+    "event_id": 1,
+    "time": "00:00",
+    "type": "kickoff",
+    "team": "",
+    "player": "",
+    "text": "上半场开始。"
+  },
+  {
+    "event_id": 2,
+    "time": "02:00",
+    "type": "shot_missed",
+    "team": "弗赖堡",
+    "player": "Ritsu Doan",
+    "text": "射门偏出。 Ritsu Doan (弗赖堡) left footed shot from outside the box misses to the right."
+  },
+  {
+    "event_id": 3,
+    "time": "04:00",
+    "type": "shot_blocked",
+    "team": "弗赖堡",
+    "player": "Kevin Schade",
+    "text": "射门被封堵。 Kevin Schade (弗赖堡) right footed shot from the centre of the box is blocked. 助攻： Michael Gregoritsch."
+  },
+  {
+    "event_id": 4,
+    "time": "05:00",
+    "type": "foul_committed",
+    "team": "弗赖堡",
+    "player": "Michael Gregoritsch",
+    "text": "犯规球员 Michael Gregoritsch (弗赖堡)."
+  },
+  {
+    "event_id": 5,
+    "time": "05:00",
+    "type": "foul_won",
+    "team": "拜仁慕尼黑",
+    "player": "Joshua Kimmich",
+    "text": "Joshua Kimmich (拜仁慕尼黑) 赢得任意球 in the defensive half."
+  },
+  {
+    "event_id": 6,
+    "time": "05:00",
+    "type": "shot_missed",
+    "team": "拜仁慕尼黑",
+    "player": "Alphonso Davies",
+    "text": "射门偏出。 Alphonso Davies (拜仁慕尼黑) left footed shot from the left side of the box is just a bit too high."
+  },
+  {
+    "event_id": 7,
+    "time": "06:00",
+    "type": "shot_blocked",
+    "team": "拜仁慕尼黑",
+    "player": "Sadio Mané",
+    "text": "射门被封堵。 Sadio Mané (拜仁慕尼黑) right footed shot from the right side of the box is blocked. 助攻： Serge Gnabry."
+  },
+  {
+    "event_id": 8,
+    "time": "06:00",
+    "type": "shot_missed",
+    "team": "拜仁慕尼黑",
+    "player": "Leroy Sané",
+    "text": "射门偏出。 Leroy Sané (拜仁慕尼黑) left footed shot from the centre of the box is close, but misses to the right. 助攻： Leon Goretzka with a headed pass."
+  },
+  {
+    "event_id": 9,
+    "time": "09:00",
+    "type": "shot_missed",
+    "team": "拜仁慕尼黑",
+    "player": "Joshua Kimmich",
+    "text": "射门偏出。 Joshua Kimmich (拜仁慕尼黑) right footed shot from outside the box misses to the left."
+  },
+  {
+    "event_id": 10,
+    "time": "10:00",
+    "type": "corner",
+    "team": "弗赖堡",
+    "player": "Alphonso Davies",
+    "text": "角球, 弗赖堡. 由其造成： Alphonso Davies."
+  },
+  {
+    "event_id": 11,
+    "time": "13:00",
+    "type": "shot_saved",
+    "team": "拜仁慕尼黑",
+    "player": "Leroy Sané",
+    "text": "射门被扑出。 Leroy Sané (拜仁慕尼黑) right footed shot from the centre of the box is saved in the bottom left corner. 助攻： Alphonso Davies with a cross.",
+    "original_type": "corner"
+  },
+  {
+    "event_id": 12,
+    "time": "13:00",
+    "type": "goal",
+    "team": "拜仁慕尼黑",
+    "player": "Serge Gnabry",
+    "text": "进球！ 拜仁慕尼黑 1, 弗赖堡 0. Serge Gnabry (拜仁慕尼黑) header from the centre of the box to the top right corner."
+  },
+  {
+    "event_id": 13,
+    "time": "15:00",
+    "type": "corner",
+    "team": "弗赖堡",
+    "player": "Noussair Mazraoui",
+    "text": "角球, 弗赖堡. 由其造成： Noussair Mazraoui."
+  },
+  {
+    "event_id": 14,
+    "time": "16:00",
+    "type": "shot_blocked",
+    "team": "弗赖堡",
+    "player": "Matthias Ginter",
+    "text": "射门被封堵。 Matthias Ginter (弗赖堡) right footed shot from the centre of the box is blocked."
+  },
+  {
+    "event_id": 15,
+    "time": "16:00",
+    "type": "corner",
+    "team": "弗赖堡",
+    "player": "Sadio Mané",
+    "text": "角球, 弗赖堡. 由其造成： Sadio Mané."
+  },
+  {
+    "event_id": 16,
+    "time": "17:00",
+    "type": "offside",
+    "team": "",
+    "player": "Leroy Sané",
+    "text": "越位, 拜仁慕尼黑. Leroy Sané tries a through ball, but Sadio Mané is caught offside."
+  },
+  {
+    "event_id": 17,
+    "time": "21:00",
+    "type": "shot_saved",
+    "team": "拜仁慕尼黑",
+    "player": "Serge Gnabry",
+    "text": "射门被扑出。 Serge Gnabry (拜仁慕尼黑) right footed shot from the centre of the box is saved in the bottom right corner. 助攻： Leon Goretzka.",
+    "original_type": "corner"
+  },
+  {
+    "event_id": 18,
+    "time": "23:00",
+    "type": "foul_committed",
+    "team": "拜仁慕尼黑",
+    "player": "Dayot Upamecano",
+    "text": "犯规球员 Dayot Upamecano (拜仁慕尼黑)."
+  },
+  {
+    "event_id": 19,
+    "time": "23:00",
+    "type": "foul_won",
+    "team": "弗赖堡",
+    "player": "Kevin Schade",
+    "text": "Kevin Schade (弗赖堡) 赢得任意球 in the defensive half."
+  },
+  {
+    "event_id": 20,
+    "time": "27:00",
+    "type": "corner",
+    "team": "拜仁慕尼黑",
+    "player": "Vincenzo Grifo",
+    "text": "角球, 拜仁慕尼黑. 由其造成： Vincenzo Grifo."
+  },
+  {
+    "event_id": 21,
+    "time": "28:00",
+    "type": "foul_committed",
+    "team": "拜仁慕尼黑",
+    "player": "Serge Gnabry",
+    "text": "犯规球员 Serge Gnabry (拜仁慕尼黑)."
+  },
+  {
+    "event_id": 22,
+    "time": "28:00",
+    "type": "foul_won",
+    "team": "弗赖堡",
+    "player": "Nicolas Höfler",
+    "text": "Nicolas Höfler (弗赖堡) 赢得任意球 in the defensive half."
+  },
+  {
+    "event_id": 23,
+    "time": "29:00",
+    "type": "foul_committed",
+    "team": "弗赖堡",
+    "player": "Michael Gregoritsch",
+    "text": "犯规球员 Michael Gregoritsch (弗赖堡)."
+  },
+  {
+    "event_id": 24,
+    "time": "29:00",
+    "type": "foul_won",
+    "team": "拜仁慕尼黑",
+    "player": "Noussair Mazraoui",
+    "text": "Noussair Mazraoui (拜仁慕尼黑) 赢得任意球 in the defensive half."
+  },
+  {
+    "event_id": 25,
+    "time": "33:00",
+    "type": "goal",
+    "team": "拜仁慕尼黑",
+    "player": "Eric Choupo-Moting",
+    "text": "进球！ 拜仁慕尼黑 2, 弗赖堡 0. Eric Choupo-Moting (拜仁慕尼黑) right footed shot from the right side of the box to the bottom left corner. 助攻： Leroy Sané."
+  },
+  {
+    "event_id": 26,
+    "time": "34:00",
+    "type": "hand_ball",
+    "team": "拜仁慕尼黑",
+    "player": "Leroy Sané",
+    "text": "手球球员 Leroy Sané (拜仁慕尼黑).",
+    "original_type": "other"
+  },
+  {
+    "event_id": 27,
+    "time": "36:00",
+    "type": "corner",
+    "team": "拜仁慕尼黑",
+    "player": "Christian Günter",
+    "text": "角球, 拜仁慕尼黑. 由其造成： Christian Günter."
+  },
+  {
+    "event_id": 28,
+    "time": "37:00",
+    "type": "shot_missed",
+    "team": "拜仁慕尼黑",
+    "player": "Leroy Sané",
+    "text": "射门偏出。 Leroy Sané (拜仁慕尼黑) left footed shot from outside the box is high and wide to the left. 助攻： Noussair Mazraoui."
+  },
+  {
+    "event_id": 29,
+    "time": "39:00",
+    "type": "shot_saved",
+    "team": "拜仁慕尼黑",
+    "player": "Serge Gnabry",
+    "text": "射门被扑出。 Serge Gnabry (拜仁慕尼黑) left footed shot from the left side of the box is saved in the bottom left corner. 助攻： Leroy Sané.",
+    "original_type": "corner"
+  },
+  {
+    "event_id": 30,
+    "time": "39:00",
+    "type": "corner",
+    "team": "拜仁慕尼黑",
+    "player": "Mark Flekken",
+    "text": "角球, 拜仁慕尼黑. 由其造成： Mark Flekken."
+  },
+  {
+    "event_id": 31,
+    "time": "43:00",
+    "type": "foul_committed",
+    "team": "弗赖堡",
+    "player": "Kiliann Sildillia",
+    "text": "犯规球员 Kiliann Sildillia (弗赖堡)."
+  },
+  {
+    "event_id": 32,
+    "time": "43:00",
+    "type": "foul_won",
+    "team": "拜仁慕尼黑",
+    "player": "Sadio Mané",
+    "text": "Sadio Mané (拜仁慕尼黑) 赢得任意球 on the left wing."
+  },
+  {
+    "event_id": 33,
+    "time": "46:00",
+    "type": "half_time",
+    "team": "拜仁慕尼黑",
+    "player": "",
+    "text": "上半场结束， 拜仁慕尼黑 2, 弗赖堡 0."
+  },
+  {
+    "event_id": 34,
+    "time": "45:00",
+    "type": "second_half_start",
+    "team": "拜仁慕尼黑",
+    "player": "",
+    "text": "下半场开始， 拜仁慕尼黑 2, 弗赖堡 0."
+  },
+  {
+    "event_id": 35,
+    "time": "46:00",
+    "type": "corner",
+    "team": "弗赖堡",
+    "player": "Joshua Kimmich",
+    "text": "角球, 弗赖堡. 由其造成： Joshua Kimmich."
+  },
+  {
+    "event_id": 36,
+    "time": "46:00",
+    "type": "shot_blocked",
+    "team": "弗赖堡",
+    "player": "Kevin Schade",
+    "text": "射门被封堵。 Kevin Schade (弗赖堡) right footed shot from the right side of the box is blocked. 助攻： Christian Günter with a cross."
+  },
+  {
+    "event_id": 37,
+    "time": "47:00",
+    "type": "foul_committed",
+    "team": "拜仁慕尼黑",
+    "player": "Joshua Kimmich",
+    "text": "犯规球员 Joshua Kimmich (拜仁慕尼黑)."
+  },
+  {
+    "event_id": 38,
+    "time": "47:00",
+    "type": "foul_won",
+    "team": "弗赖堡",
+    "player": "Michael Gregoritsch",
+    "text": "Michael Gregoritsch (弗赖堡) 赢得任意球 in the attacking half."
+  },
+  {
+    "event_id": 39,
+    "time": "49:00",
+    "type": "offside",
+    "team": "",
+    "player": "Leon Goretzka",
+    "text": "越位, 拜仁慕尼黑. Leon Goretzka tries a through ball, but Sadio Mané is caught offside."
+  },
+  {
+    "event_id": 40,
+    "time": "50:00",
+    "type": "foul_won",
+    "team": "拜仁慕尼黑",
+    "player": "Alphonso Davies",
+    "text": "Alphonso Davies (拜仁慕尼黑) 赢得任意球 in the defensive half."
+  },
+  {
+    "event_id": 41,
+    "time": "50:00",
+    "type": "foul_committed",
+    "team": "弗赖堡",
+    "player": "Michael Gregoritsch",
+    "text": "犯规球员 Michael Gregoritsch (弗赖堡)."
+  },
+  {
+    "event_id": 42,
+    "time": "50:00",
+    "type": "yellow_card",
+    "team": "弗赖堡",
+    "player": "Michael Gregoritsch",
+    "text": "Michael Gregoritsch (弗赖堡) 因严重犯规被出示黄牌."
+  },
+  {
+    "event_id": 43,
+    "time": "51:00",
+    "type": "foul_committed",
+    "team": "弗赖堡",
+    "player": "Kiliann Sildillia",
+    "text": "犯规球员 Kiliann Sildillia (弗赖堡)."
+  },
+  {
+    "event_id": 44,
+    "time": "51:00",
+    "type": "foul_won",
+    "team": "拜仁慕尼黑",
+    "player": "Sadio Mané",
+    "text": "Sadio Mané (拜仁慕尼黑) 赢得任意球 in the defensive half."
+  },
+  {
+    "event_id": 45,
+    "time": "51:00",
+    "type": "yellow_card",
+    "team": "弗赖堡",
+    "player": "Kiliann Sildillia",
+    "text": "Kiliann Sildillia (弗赖堡) 因严重犯规被出示黄牌."
+  },
+  {
+    "event_id": 46,
+    "time": "52:00",
+    "type": "shot_post",
+    "team": "拜仁慕尼黑",
+    "player": "Serge Gnabry",
+    "text": "Serge Gnabry (拜仁慕尼黑) hits the left post with a right footed shot from the centre of the box.",
+    "original_type": "other"
+  },
+  {
+    "event_id": 47,
+    "time": "52:00",
+    "type": "goal",
+    "team": "拜仁慕尼黑",
+    "player": "Leroy Sané",
+    "text": "进球！ 拜仁慕尼黑 3, 弗赖堡 0. Leroy Sané (拜仁慕尼黑) left footed shot from outside the box to the bottom left corner. 助攻： Eric Choupo-Moting."
+  },
+  {
+    "event_id": 48,
+    "time": "55:00",
+    "type": "goal",
+    "team": "拜仁慕尼黑",
+    "player": "Sadio Mané",
+    "text": "进球！ 拜仁慕尼黑 4, 弗赖堡 0. Sadio Mané (拜仁慕尼黑) right footed shot from the centre of the box to the high centre of the goal. 助攻： Serge Gnabry."
+  },
+  {
+    "event_id": 49,
+    "time": "56:00",
+    "type": "substitution",
+    "team": "弗赖堡",
+    "player": "Noah Weißhaupt",
+    "text": "换人, 弗赖堡. Noah Weißhaupt replaces Vincenzo Grifo.",
+    "player_in": "Noah Weißhaupt",
+    "player_out": "Vincenzo Grifo"
+  },
+  {
+    "event_id": 50,
+    "time": "56:00",
+    "type": "substitution",
+    "team": "弗赖堡",
+    "player": "Woo-Yeong Jeong",
+    "text": "换人, 弗赖堡. Woo-Yeong Jeong replaces Kevin Schade.",
+    "player_in": "Woo-Yeong Jeong",
+    "player_out": "Kevin Schade"
+  },
+  {
+    "event_id": 51,
+    "time": "57:00",
+    "type": "substitution",
+    "team": "弗赖堡",
+    "player": "Nils Petersen",
+    "text": "换人, 弗赖堡. Nils Petersen replaces Michael Gregoritsch.",
+    "player_in": "Nils Petersen",
+    "player_out": "Michael Gregoritsch"
+  },
+  {
+    "event_id": 52,
+    "time": "57:00",
+    "type": "foul_committed",
+    "team": "拜仁慕尼黑",
+    "player": "Leroy Sané",
+    "text": "犯规球员 Leroy Sané (拜仁慕尼黑)."
+  },
+  {
+    "event_id": 53,
+    "time": "57:00",
+    "type": "foul_won",
+    "team": "弗赖堡",
+    "player": "Kiliann Sildillia",
+    "text": "Kiliann Sildillia (弗赖堡) 赢得任意球 in the attacking half."
+  },
+  {
+    "event_id": 54,
+    "time": "58:00",
+    "type": "foul_committed",
+    "team": "拜仁慕尼黑",
+    "player": "Leon Goretzka",
+    "text": "犯规球员 Leon Goretzka (拜仁慕尼黑)."
+  },
+  {
+    "event_id": 55,
+    "time": "58:00",
+    "type": "foul_won",
+    "team": "弗赖堡",
+    "player": "Ritsu Doan",
+    "text": "Ritsu Doan (弗赖堡) 赢得任意球 in the attacking half."
+  },
+  {
+    "event_id": 56,
+    "time": "64:00",
+    "type": "substitution",
+    "team": "弗赖堡",
+    "player": "Yannik Keitel",
+    "text": "换人, 弗赖堡. Yannik Keitel replaces Nicolas Höfler.",
+    "player_in": "Yannik Keitel",
+    "player_out": "Nicolas Höfler"
+  },
+  {
+    "event_id": 57,
+    "time": "66:00",
+    "type": "substitution",
+    "team": "拜仁慕尼黑",
+    "player": "Jamal Musiala",
+    "text": "换人, 拜仁慕尼黑. Jamal Musiala replaces Eric Choupo-Moting.",
+    "player_in": "Jamal Musiala",
+    "player_out": "Eric Choupo-Moting"
+  },
+  {
+    "event_id": 58,
+    "time": "67:00",
+    "type": "foul_committed",
+    "team": "拜仁慕尼黑",
+    "player": "Noussair Mazraoui",
+    "text": "犯规球员 Noussair Mazraoui (拜仁慕尼黑)."
+  },
+  {
+    "event_id": 59,
+    "time": "67:00",
+    "type": "foul_won",
+    "team": "弗赖堡",
+    "player": "Noah Weißhaupt",
+    "text": "Noah Weißhaupt (弗赖堡) 赢得任意球 on the left wing."
+  },
+  {
+    "event_id": 60,
+    "time": "68:00",
+    "type": "corner",
+    "team": "弗赖堡",
+    "player": "Sven Ulreich",
+    "text": "角球, 弗赖堡. 由其造成： Sven Ulreich."
+  },
+  {
+    "event_id": 61,
+    "time": "69:00",
+    "type": "shot_blocked",
+    "team": "弗赖堡",
+    "player": "Matthias Ginter",
+    "text": "射门被封堵。 Matthias Ginter (弗赖堡) header from the centre of the box is blocked. 助攻： Christian Günter with a cross."
+  },
+  {
+    "event_id": 62,
+    "time": "70:00",
+    "type": "foul_won",
+    "team": "拜仁慕尼黑",
+    "player": "Dayot Upamecano",
+    "text": "Dayot Upamecano (拜仁慕尼黑) 赢得任意球 in the defensive half."
+  },
+  {
+    "event_id": 63,
+    "time": "70:00",
+    "type": "foul_committed",
+    "team": "弗赖堡",
+    "player": "Woo-Yeong Jeong",
+    "text": "犯规球员 Woo-Yeong Jeong (弗赖堡)."
+  },
+  {
+    "event_id": 64,
+    "time": "72:00",
+    "type": "foul_committed",
+    "team": "弗赖堡",
+    "player": "Woo-Yeong Jeong",
+    "text": "犯规球员 Woo-Yeong Jeong (弗赖堡)."
+  },
+  {
+    "event_id": 65,
+    "time": "72:00",
+    "type": "foul_won",
+    "team": "拜仁慕尼黑",
+    "player": "Leon Goretzka",
+    "text": "Leon Goretzka (拜仁慕尼黑) 赢得任意球 in the attacking half."
+  },
+  {
+    "event_id": 66,
+    "time": "75:00",
+    "type": "substitution",
+    "team": "弗赖堡",
+    "player": "Lucas Höler",
+    "text": "换人, 弗赖堡. Lucas Höler replaces Ritsu Doan.",
+    "player_in": "Lucas Höler",
+    "player_out": "Ritsu Doan"
+  },
+  {
+    "event_id": 67,
+    "time": "76:00",
+    "type": "substitution",
+    "team": "拜仁慕尼黑",
+    "player": "Mathys Tel",
+    "text": "换人, 拜仁慕尼黑. Mathys Tel replaces Leroy Sané.",
+    "player_in": "Mathys Tel",
+    "player_out": "Leroy Sané"
+  },
+  {
+    "event_id": 68,
+    "time": "76:00",
+    "type": "substitution",
+    "team": "拜仁慕尼黑",
+    "player": "Benjamin Pavard",
+    "text": "换人, 拜仁慕尼黑. Benjamin Pavard replaces Matthijs de Ligt.",
+    "player_in": "Benjamin Pavard",
+    "player_out": "Matthijs de Ligt"
+  },
+  {
+    "event_id": 69,
+    "time": "76:00",
+    "type": "substitution",
+    "team": "拜仁慕尼黑",
+    "player": "Marcel Sabitzer",
+    "text": "换人, 拜仁慕尼黑. Marcel Sabitzer replaces Leon Goretzka.",
+    "player_in": "Marcel Sabitzer",
+    "player_out": "Leon Goretzka"
+  },
+  {
+    "event_id": 70,
+    "time": "78:00",
+    "type": "corner",
+    "team": "拜仁慕尼黑",
+    "player": "Noah Weißhaupt",
+    "text": "角球, 拜仁慕尼黑. 由其造成： Noah Weißhaupt."
+  },
+  {
+    "event_id": 71,
+    "time": "79:00",
+    "type": "substitution",
+    "team": "拜仁慕尼黑",
+    "player": "Josip Stanisic",
+    "text": "换人, 拜仁慕尼黑. Josip Stanisic replaces Noussair Mazraoui 原因：受伤.",
+    "player_in": "Josip Stanisic",
+    "player_out": "Noussair Mazraoui"
+  },
+  {
+    "event_id": 72,
+    "time": "80:00",
+    "type": "goal",
+    "team": "拜仁慕尼黑",
+    "player": "Marcel Sabitzer",
+    "text": "进球！ 拜仁慕尼黑 5, 弗赖堡 0. Marcel Sabitzer (拜仁慕尼黑) right footed shot from the centre of the box to the bottom left corner."
+  },
+  {
+    "event_id": 73,
+    "time": "83:00",
+    "type": "foul_committed",
+    "team": "弗赖堡",
+    "player": "Woo-Yeong Jeong",
+    "text": "犯规球员 Woo-Yeong Jeong (弗赖堡)."
+  },
+  {
+    "event_id": 74,
+    "time": "83:00",
+    "type": "foul_won",
+    "team": "拜仁慕尼黑",
+    "player": "Joshua Kimmich",
+    "text": "Joshua Kimmich (拜仁慕尼黑) 赢得任意球 on the left wing."
+  },
+  {
+    "event_id": 75,
+    "time": "84:00",
+    "type": "foul_committed",
+    "team": "弗赖堡",
+    "player": "Nils Petersen",
+    "text": "犯规球员 Nils Petersen (弗赖堡)."
+  },
+  {
+    "event_id": 76,
+    "time": "84:00",
+    "type": "foul_won",
+    "team": "拜仁慕尼黑",
+    "player": "Joshua Kimmich",
+    "text": "Joshua Kimmich (拜仁慕尼黑) 赢得任意球 in the defensive half."
+  },
+  {
+    "event_id": 77,
+    "time": "85:00",
+    "type": "corner",
+    "team": "拜仁慕尼黑",
+    "player": "Philipp Lienhart",
+    "text": "角球, 拜仁慕尼黑. 由其造成： Philipp Lienhart."
+  },
+  {
+    "event_id": 78,
+    "time": "86:00",
+    "type": "hand_ball",
+    "team": "拜仁慕尼黑",
+    "player": "Mathys Tel",
+    "text": "手球球员 Mathys Tel (拜仁慕尼黑).",
+    "original_type": "other"
+  },
+  {
+    "event_id": 79,
+    "time": "88:00",
+    "type": "shot_missed",
+    "team": "拜仁慕尼黑",
+    "player": "Mathys Tel",
+    "text": "射门偏出。 Mathys Tel (拜仁慕尼黑) right footed shot from the centre of the box is too high."
+  },
+  {
+    "event_id": 80,
+    "time": "89:00",
+    "type": "shot_missed",
+    "team": "拜仁慕尼黑",
+    "player": "Sadio Mané",
+    "text": "射门偏出。 Sadio Mané (拜仁慕尼黑) right footed shot from outside the box is high and wide to the right."
+  },
+  {
+    "event_id": 81,
+    "time": "90:00",
+    "type": "shot_missed",
+    "team": "弗赖堡",
+    "player": "Noah Weißhaupt",
+    "text": "射门偏出。 Noah Weißhaupt (弗赖堡) right footed shot from the centre of the box misses to the left. 助攻： Lucas Höler."
+  },
+  {
+    "event_id": 82,
+    "time": "90:00",
+    "type": "full_time",
+    "team": "拜仁慕尼黑",
+    "player": "",
+    "text": "下半场结束， 拜仁慕尼黑 5, 弗赖堡 0."
+  },
+  {
+    "event_id": 83,
+    "time": "90:00",
+    "type": "full_time",
+    "team": "拜仁慕尼黑",
+    "player": "",
+    "text": "全场比赛结束， 拜仁慕尼黑 5, 弗赖堡 0."
+  },
+  {
+    "event_id": 84,
+    "time": "90:00",
+    "type": "full_time",
+    "team": "拜仁慕尼黑",
+    "player": "",
+    "text": "全场比赛结束， 拜仁慕尼黑 5, 弗赖堡 0."
+  }
+]

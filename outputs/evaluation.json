@@ -1,0 +1,276 @@
+{
+  "num_questions": 13,
+  "mean_evidence_f1": 1.0,
+  "mean_answer_char_f1": 0.8605,
+  "answer_match_accuracy": 1.0,
+  "details": [
+    {
+      "question": "哪个队最后赢了？全场比分是多少？",
+      "gold_answer": "拜仁慕尼黑最后赢了，全场比分为拜仁慕尼黑5比0弗赖堡。",
+      "pred_answer": "拜仁慕尼黑最后赢了。全场比分是拜仁慕尼黑5比0弗赖堡。",
+      "gold_evidence": [
+        82
+      ],
+      "pred_evidence": [
+        82
+      ],
+      "evidence_f1": 1.0,
+      "answer_char_f1": 0.96,
+      "answer_match": 1.0
+    },
+    {
+      "question": "拜仁第三个进球前，同一分钟出现了哪次更早的关键机会？这两条证据连起来说明了什么？",
+      "gold_answer": "52分钟，Serge Gnabry先在禁区中央右脚射门击中左门柱，随后Leroy Sané在同一分钟接Eric Choupo-Moting助攻远射破门。两条证据说明拜仁在52分钟形成连续高压，并很快把门柱机会转化为第三个进球。",
+      "pred_answer": "52分钟Serge Gnabry先击中左门柱，随后Leroy Sané接Eric Choupo-Moting助攻远射破门，说明拜仁在同一分钟内连续制造高质量机会并完成第三球。",
+      "gold_evidence": [
+        46,
+        47
+      ],
+      "pred_evidence": [
+        46,
+        47
+      ],
+      "evidence_f1": 1.0,
+      "answer_char_f1": 0.8065,
+      "answer_match": 1.0
+    },
+    {
+      "question": "Michael Gregoritsch这名球员的事件链有什么特点？请结合他早期参与进攻、犯规、吃牌和被换下的证据回答。",
+      "gold_answer": "Michael Gregoritsch早期曾助攻Kevin Schade形成射门被封堵，但随后在5分钟、29分钟和50分钟多次犯规，50分钟因严重犯规吃到黄牌，57分钟被Nils Petersen换下，体现出从进攻参与到防守犯规累积再到被调整下场的事件链。",
+      "pred_answer": "Michael Gregoritsch早期助攻Kevin Schade形成射门，但随后多次犯规，50分钟吃到黄牌，57分钟被Nils Petersen换下，体现出进攻参与、犯规累积、纪律风险和人员调整的连续事件链。",
+      "gold_evidence": [
+        3,
+        4,
+        23,
+        41,
+        42,
+        51
+      ],
+      "pred_evidence": [
+        3,
+        4,
+        23,
+        41,
+        42,
+        51
+      ],
+      "evidence_f1": 1.0,
+      "answer_char_f1": 0.8241,
+      "answer_match": 1.0
+    },
+    {
+      "question": "弗赖堡在下半场刚开始是否曾尝试反扑？请找出46到47分钟之间能支持这一判断的连续证据。",
+      "gold_answer": "是。46分钟弗赖堡获得角球，随后Kevin Schade在右侧射门被封堵；47分钟Joshua Kimmich犯规，Michael Gregoritsch在前场赢得任意球。这些证据说明弗赖堡下半场开局曾连续进入进攻区域。",
+      "pred_answer": "是。46分钟弗赖堡获得角球，随后Kevin Schade在右侧射门被封堵；47分钟Joshua Kimmich犯规，Michael Gregoritsch在前场赢得任意球。这些证据说明弗赖堡下半场开局曾连续进入进攻区域。",
+      "gold_evidence": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "pred_evidence": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "evidence_f1": 1.0,
+      "answer_char_f1": 1.0,
+      "answer_match": 1.0
+    },
+    {
+      "question": "弗赖堡为什么可以被认为在50到51分钟出现了短时间纪律崩盘？",
+      "gold_answer": "50分钟Michael Gregoritsch对Alphonso Davies犯规并因严重犯规吃到黄牌；51分钟Kiliann Sildillia又对Sadio Mané犯规并吃到黄牌。连续两分钟两名弗赖堡球员因犯规被黄牌警告，说明该阶段存在明显纪律问题。",
+      "pred_answer": "50到51分钟，Michael Gregoritsch和Kiliann Sildillia连续犯规并先后吃到黄牌，说明弗赖堡在极短时间内出现明显纪律问题。",
+      "gold_evidence": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "pred_evidence": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "evidence_f1": 1.0,
+      "answer_char_f1": 0.6458,
+      "answer_match": 1.0
+    },
+    {
+      "question": "拜仁的第五个进球和76分钟的换人调整之间有什么直接关系？",
+      "gold_answer": "76分钟Marcel Sabitzer替换Leon Goretzka登场，80分钟Marcel Sabitzer在禁区中央右脚破门。因此，第五个进球直接来自76分钟登场的替补球员。",
+      "pred_answer": "76分钟Marcel Sabitzer替换Leon Goretzka登场，80分钟Sabitzer破门，因此拜仁第五球直接来自76分钟的替补调整。",
+      "gold_evidence": [
+        69,
+        72
+      ],
+      "pred_evidence": [
+        69,
+        72
+      ],
+      "evidence_f1": 1.0,
+      "answer_char_f1": 0.8477,
+      "answer_match": 1.0
+    },
+    {
+      "question": "Sadio Mané在本场比赛中的进攻轨迹有什么变化？请用越位和进球证据说明。",
+      "gold_answer": "Sadio Mané在17分钟和49分钟两次被判越位，但55分钟接Serge Gnabry助攻在禁区中央右脚破门，把比分扩大为4比0。证据链体现出他先多次冲击防线但越位，随后完成进球。",
+      "pred_answer": "Sadio Mané在17分钟和49分钟两次被判越位，但55分钟接Serge Gnabry助攻破门，进攻轨迹从反复冲击越位转向完成进球。",
+      "gold_evidence": [
+        16,
+        39,
+        48
+      ],
+      "pred_evidence": [
+        16,
+        39,
+        48
+      ],
+      "evidence_f1": 1.0,
+      "answer_char_f1": 0.7297,
+      "answer_match": 1.0
+    },
+    {
+      "question": "拜仁前两个进球之间，Leroy Sané的作用是否发生变化？请结合他被扑出的射门和第二球助攻回答。",
+      "gold_answer": "发生了变化。13分钟Leroy Sané先有一次禁区中央右脚射门被扑出，33分钟他为Eric Choupo-Moting送出助攻，帮助拜仁打进第二球。这说明Sané从直接射门威胁转为直接助攻得分。",
+      "pred_answer": "Leroy Sané先在13分钟完成一次被扑出的射门，随后在33分钟助攻Eric Choupo-Moting打入第二球，作用从直接射门威胁转为直接助攻得分。",
+      "gold_evidence": [
+        11,
+        25
+      ],
+      "pred_evidence": [
+        11,
+        25
+      ],
+      "evidence_f1": 1.0,
+      "answer_char_f1": 0.7683,
+      "answer_match": 1.0
+    },
+    {
+      "question": "拜仁5个进球分别由谁打进？其中哪些进球在文本中明确给出了助攻者？",
+      "gold_answer": "5个进球分别由Serge Gnabry、Eric Choupo-Moting、Leroy Sané、Sadio Mané和Marcel Sabitzer打进。文本明确给出助攻者的是第二球Leroy Sané助攻、第三球Eric Choupo-Moting助攻、第四球Serge Gnabry助攻；第一球和第五球没有明确助攻者。",
+      "pred_answer": "5个进球分别由Serge Gnabry、Eric Choupo-Moting、Leroy Sané、Sadio Mané和Marcel Sabitzer打进。文本明确给出助攻者的是第二球Leroy Sané助攻、第三球Eric Choupo-Moting助攻、第四球Serge Gnabry助攻；第一球和第五球没有明确助攻者。",
+      "gold_evidence": [
+        12,
+        25,
+        47,
+        48,
+        72
+      ],
+      "pred_evidence": [
+        12,
+        25,
+        47,
+        48,
+        72
+      ],
+      "evidence_f1": 1.0,
+      "answer_char_f1": 1.0,
+      "answer_match": 1.0
+    },
+    {
+      "question": "弗赖堡在56到57分钟连续换人的背景是什么？请结合比分变化、纪律事件和换人对象回答。",
+      "gold_answer": "弗赖堡在55分钟刚被Sadio Mané打入第四球，比分变成0比4；此前Michael Gregoritsch在50分钟吃到黄牌。随后弗赖堡56分钟连续换上Noah Weißhaupt和Woo-Yeong Jeong，57分钟又用Nils Petersen换下Michael Gregoritsch。这说明换人发生在大比分落后和个别球员纪律风险之后。",
+      "pred_answer": "弗赖堡连续换人发生在55分钟0比4落后之后，同时Michael Gregoritsch已在50分钟吃到黄牌；56到57分钟弗赖堡连续换上Noah Weißhaupt、Woo-Yeong Jeong和Nils Petersen，并换下Gregoritsch。",
+      "gold_evidence": [
+        42,
+        48,
+        49,
+        50,
+        51
+      ],
+      "pred_evidence": [
+        42,
+        48,
+        49,
+        50,
+        51
+      ],
+      "evidence_f1": 1.0,
+      "answer_char_f1": 0.7943,
+      "answer_match": 1.0
+    },
+    {
+      "question": "下半场70分钟以后，Woo-Yeong Jeong的事件链说明了什么？",
+      "gold_answer": "Woo-Yeong Jeong在70分钟和72分钟连续犯规，其中72分钟的犯规让Leon Goretzka在前场赢得任意球；83分钟他又出现犯规。这说明他替补登场后在防守端多次犯规。",
+      "pred_answer": "Woo-Yeong Jeong在56分钟替补登场后，于70分钟、72分钟和83分钟多次犯规，其中72分钟让Leon Goretzka在前场赢得任意球，说明其替补登场后防守动作较多。",
+      "gold_evidence": [
+        50,
+        63,
+        64,
+        65,
+        73
+      ],
+      "pred_evidence": [
+        50,
+        63,
+        64,
+        65,
+        73
+      ],
+      "evidence_f1": 1.0,
+      "answer_char_f1": 0.8095,
+      "answer_match": 1.0
+    },
+    {
+      "question": "拜仁是否只依靠单一方式得分？请根据5个进球的射门区域和方式进行判断。",
+      "gold_answer": "不是。拜仁的进球方式较分散：Serge Gnabry头球破门，Eric Choupo-Moting右侧禁区右脚射门得分，Leroy Sané禁区外左脚远射得分，Sadio Mané禁区中央右脚射门得分，Marcel Sabitzer禁区中央右脚射门得分，体现出头球、禁区右侧、禁区外远射和中路射门等多种方式。",
+      "pred_answer": "不是。拜仁的进球方式较分散：Serge Gnabry头球破门，Eric Choupo-Moting右侧禁区右脚射门得分，Leroy Sané禁区外左脚远射得分，Sadio Mané禁区中央右脚射门得分，Marcel Sabitzer禁区中央右脚射门得分，体现出头球、禁区右侧、禁区外远射和中路射门等多种方式。",
+      "gold_evidence": [
+        12,
+        25,
+        47,
+        48,
+        72
+      ],
+      "pred_evidence": [
+        12,
+        25,
+        47,
+        48,
+        72
+      ],
+      "evidence_f1": 1.0,
+      "answer_char_f1": 1.0,
+      "answer_match": 1.0
+    },
+    {
+      "question": "弗赖堡全场最接近形成持续进攻威胁的两个阶段分别是什么？",
+      "gold_answer": "第一个阶段是开场到16分钟，弗赖堡有Ritsu Doan射偏、Kevin Schade射门被封堵、10分钟和15到16分钟角球及Matthias Ginter射门被封堵；第二个阶段是下半场46到47分钟，弗赖堡角球、Kevin Schade射门被封堵并赢得前场任意球。",
+      "pred_answer": "第一个阶段是开场到16分钟，弗赖堡有Ritsu Doan射偏、Kevin Schade射门被封堵、10分钟和15到16分钟角球及Matthias Ginter射门被封堵；第二个阶段是下半场46到47分钟，弗赖堡角球、Kevin Schade射门被封堵并赢得前场任意球。",
+      "gold_evidence": [
+        2,
+        3,
+        10,
+        13,
+        14,
+        15,
+        35,
+        36,
+        37,
+        38
+      ],
+      "pred_evidence": [
+        2,
+        3,
+        10,
+        13,
+        14,
+        15,
+        35,
+        36,
+        37,
+        38
+      ],
+      "evidence_f1": 1.0,
+      "answer_char_f1": 1.0,
+      "answer_match": 1.0
+    }
+  ]
+}

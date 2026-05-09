@@ -1,0 +1,232 @@
+[
+  {
+    "question": "拜仁第三个进球前，同一分钟出现了哪次更早的关键机会？这两条证据连起来说明了什么？",
+    "intent": "reason",
+    "answer": "52分钟Serge Gnabry先击中左门柱，随后Leroy Sané接Eric Choupo-Moting助攻远射破门，说明拜仁在同一分钟内连续制造高质量机会并完成第三球。",
+    "evidence_ids": [
+      46,
+      47
+    ],
+    "evidence": [
+      {
+        "event_id": 46,
+        "time": "52:00",
+        "type": "shot_post",
+        "team": "拜仁慕尼黑",
+        "player": "Serge Gnabry",
+        "text": "Serge Gnabry (拜仁慕尼黑) hits the left post with a right footed shot from the centre of the box.",
+        "original_type": "other"
+      },
+      {
+        "event_id": 47,
+        "time": "52:00",
+        "type": "goal",
+        "team": "拜仁慕尼黑",
+        "player": "Leroy Sané",
+        "text": "进球！ 拜仁慕尼黑 3, 弗赖堡 0. Leroy Sané (拜仁慕尼黑) left footed shot from outside the box to the bottom left corner. 助攻： Eric Choupo-Moting."
+      }
+    ]
+  },
+  {
+    "question": "Michael Gregoritsch这名球员的事件链有什么特点？请结合他早期参与进攻、犯规、吃牌和被换下的证据回答。",
+    "intent": "reason",
+    "answer": "Michael Gregoritsch早期助攻Kevin Schade形成射门，但随后多次犯规，50分钟吃到黄牌，57分钟被Nils Petersen换下，体现出进攻参与、犯规累积、纪律风险和人员调整的连续事件链。",
+    "evidence_ids": [
+      3,
+      4,
+      23,
+      41,
+      42,
+      51
+    ],
+    "evidence": [
+      {
+        "event_id": 3,
+        "time": "04:00",
+        "type": "shot_blocked",
+        "team": "弗赖堡",
+        "player": "Kevin Schade",
+        "text": "射门被封堵。 Kevin Schade (弗赖堡) right footed shot from the centre of the box is blocked. 助攻： Michael Gregoritsch."
+      },
+      {
+        "event_id": 4,
+        "time": "05:00",
+        "type": "foul_committed",
+        "team": "弗赖堡",
+        "player": "Michael Gregoritsch",
+        "text": "犯规球员 Michael Gregoritsch (弗赖堡)."
+      },
+      {
+        "event_id": 23,
+        "time": "29:00",
+        "type": "foul_committed",
+        "team": "弗赖堡",
+        "player": "Michael Gregoritsch",
+        "text": "犯规球员 Michael Gregoritsch (弗赖堡)."
+      },
+      {
+        "event_id": 41,
+        "time": "50:00",
+        "type": "foul_committed",
+        "team": "弗赖堡",
+        "player": "Michael Gregoritsch",
+        "text": "犯规球员 Michael Gregoritsch (弗赖堡)."
+      },
+      {
+        "event_id": 42,
+        "time": "50:00",
+        "type": "yellow_card",
+        "team": "弗赖堡",
+        "player": "Michael Gregoritsch",
+        "text": "Michael Gregoritsch (弗赖堡) 因严重犯规被出示黄牌."
+      },
+      {
+        "event_id": 51,
+        "time": "57:00",
+        "type": "substitution",
+        "team": "弗赖堡",
+        "player": "Nils Petersen",
+        "text": "换人, 弗赖堡. Nils Petersen replaces Michael Gregoritsch.",
+        "player_in": "Nils Petersen",
+        "player_out": "Michael Gregoritsch"
+      }
+    ]
+  },
+  {
+    "question": "弗赖堡在下半场刚开始是否曾尝试反扑？请找出46到47分钟之间能支持这一判断的连续证据。",
+    "intent": "reason",
+    "answer": "是。46分钟弗赖堡获得角球，随后Kevin Schade在右侧射门被封堵；47分钟Joshua Kimmich犯规，Michael Gregoritsch在前场赢得任意球。这些证据说明弗赖堡下半场开局曾连续进入进攻区域。",
+    "evidence_ids": [
+      35,
+      36,
+      37,
+      38
+    ],
+    "evidence": [
+      {
+        "event_id": 35,
+        "time": "46:00",
+        "type": "corner",
+        "team": "弗赖堡",
+        "player": "Joshua Kimmich",
+        "text": "角球, 弗赖堡. 由其造成： Joshua Kimmich."
+      },
+      {
+        "event_id": 36,
+        "time": "46:00",
+        "type": "shot_blocked",
+        "team": "弗赖堡",
+        "player": "Kevin Schade",
+        "text": "射门被封堵。 Kevin Schade (弗赖堡) right footed shot from the right side of the box is blocked. 助攻： Christian Günter with a cross."
+      },
+      {
+        "event_id": 37,
+        "time": "47:00",
+        "type": "foul_committed",
+        "team": "拜仁慕尼黑",
+        "player": "Joshua Kimmich",
+        "text": "犯规球员 Joshua Kimmich (拜仁慕尼黑)."
+      },
+      {
+        "event_id": 38,
+        "time": "47:00",
+        "type": "foul_won",
+        "team": "弗赖堡",
+        "player": "Michael Gregoritsch",
+        "text": "Michael Gregoritsch (弗赖堡) 赢得任意球 in the attacking half."
+      }
+    ]
+  },
+  {
+    "question": "弗赖堡为什么可以被认为在50到51分钟出现了短时间纪律崩盘？",
+    "intent": "time",
+    "answer": "50到51分钟，Michael Gregoritsch和Kiliann Sildillia连续犯规并先后吃到黄牌，说明弗赖堡在极短时间内出现明显纪律问题。",
+    "evidence_ids": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "evidence": [
+      {
+        "event_id": 40,
+        "time": "50:00",
+        "type": "foul_won",
+        "team": "拜仁慕尼黑",
+        "player": "Alphonso Davies",
+        "text": "Alphonso Davies (拜仁慕尼黑) 赢得任意球 in the defensive half."
+      },
+      {
+        "event_id": 41,
+        "time": "50:00",
+        "type": "foul_committed",
+        "team": "弗赖堡",
+        "player": "Michael Gregoritsch",
+        "text": "犯规球员 Michael Gregoritsch (弗赖堡)."
+      },
+      {
+        "event_id": 42,
+        "time": "50:00",
+        "type": "yellow_card",
+        "team": "弗赖堡",
+        "player": "Michael Gregoritsch",
+        "text": "Michael Gregoritsch (弗赖堡) 因严重犯规被出示黄牌."
+      },
+      {
+        "event_id": 43,
+        "time": "51:00",
+        "type": "foul_committed",
+        "team": "弗赖堡",
+        "player": "Kiliann Sildillia",
+        "text": "犯规球员 Kiliann Sildillia (弗赖堡)."
+      },
+      {
+        "event_id": 44,
+        "time": "51:00",
+        "type": "foul_won",
+        "team": "拜仁慕尼黑",
+        "player": "Sadio Mané",
+        "text": "Sadio Mané (拜仁慕尼黑) 赢得任意球 in the defensive half."
+      },
+      {
+        "event_id": 45,
+        "time": "51:00",
+        "type": "yellow_card",
+        "team": "弗赖堡",
+        "player": "Kiliann Sildillia",
+        "text": "Kiliann Sildillia (弗赖堡) 因严重犯规被出示黄牌."
+      }
+    ]
+  },
+  {
+    "question": "拜仁的第五个进球和76分钟的换人调整之间有什么直接关系？",
+    "intent": "reason",
+    "answer": "76分钟Marcel Sabitzer替换Leon Goretzka登场，80分钟Sabitzer破门，因此拜仁第五球直接来自76分钟的替补调整。",
+    "evidence_ids": [
+      69,
+      72
+    ],
+    "evidence": [
+      {
+        "event_id": 69,
+        "time": "76:00",
+        "type": "substitution",
+        "team": "拜仁慕尼黑",
+        "player": "Marcel Sabitzer",
+        "text": "换人, 拜仁慕尼黑. Marcel Sabitzer replaces Leon Goretzka.",
+        "player_in": "Marcel Sabitzer",
+        "player_out": "Leon Goretzka"
+      },
+      {
+        "event_id": 72,
+        "time": "80:00",
+        "type": "goal",
+        "team": "拜仁慕尼黑",
+        "player": "Marcel Sabitzer",
+        "text": "进球！ 拜仁慕尼黑 5, 弗赖堡 0. Marcel Sabitzer (拜仁慕尼黑) right footed shot from the centre of the box to the bottom left corner."
+      }
+    ]
+  }
+]

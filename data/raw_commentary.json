@@ -1,0 +1,506 @@
+[
+  {
+    "event_id": 1,
+    "time": "-",
+    "type": "kickoff",
+    "text": "First Half begins."
+  },
+  {
+    "event_id": 2,
+    "time": "2'",
+    "type": "shot_missed",
+    "text": "Attempt missed. Ritsu Doan (SC Freiburg) left footed shot from outside the box misses to the right."
+  },
+  {
+    "event_id": 3,
+    "time": "4'",
+    "type": "shot_blocked",
+    "text": "Attempt blocked. Kevin Schade (SC Freiburg) right footed shot from the centre of the box is blocked. Assisted by Michael Gregoritsch."
+  },
+  {
+    "event_id": 4,
+    "time": "5'",
+    "type": "foul_committed",
+    "text": "Foul by Michael Gregoritsch (SC Freiburg)."
+  },
+  {
+    "event_id": 5,
+    "time": "5'",
+    "type": "foul_won",
+    "text": "Joshua Kimmich (FC Bayern München) wins a free kick in the defensive half."
+  },
+  {
+    "event_id": 6,
+    "time": "5'",
+    "type": "shot_missed",
+    "text": "Attempt missed. Alphonso Davies (FC Bayern München) left footed shot from the left side of the box is just a bit too high."
+  },
+  {
+    "event_id": 7,
+    "time": "6'",
+    "type": "shot_blocked",
+    "text": "Attempt blocked. Sadio Mané (FC Bayern München) right footed shot from the right side of the box is blocked. Assisted by Serge Gnabry."
+  },
+  {
+    "event_id": 8,
+    "time": "6'",
+    "type": "shot_missed",
+    "text": "Attempt missed. Leroy Sané (FC Bayern München) left footed shot from the centre of the box is close, but misses to the right. Assisted by Leon Goretzka with a headed pass."
+  },
+  {
+    "event_id": 9,
+    "time": "9'",
+    "type": "shot_missed",
+    "text": "Attempt missed. Joshua Kimmich (FC Bayern München) right footed shot from outside the box misses to the left."
+  },
+  {
+    "event_id": 10,
+    "time": "10'",
+    "type": "corner",
+    "text": "Corner, SC Freiburg. Conceded by Alphonso Davies."
+  },
+  {
+    "event_id": 11,
+    "time": "13'",
+    "type": "corner",
+    "text": "Attempt saved. Leroy Sané (FC Bayern München) right footed shot from the centre of the box is saved in the bottom left corner. Assisted by Alphonso Davies with a cross."
+  },
+  {
+    "event_id": 12,
+    "time": "13'",
+    "type": "goal",
+    "text": "Goal! FC Bayern München 1, SC Freiburg 0. Serge Gnabry (FC Bayern München) header from the centre of the box to the top right corner."
+  },
+  {
+    "event_id": 13,
+    "time": "15'",
+    "type": "corner",
+    "text": "Corner, SC Freiburg. Conceded by Noussair Mazraoui."
+  },
+  {
+    "event_id": 14,
+    "time": "16'",
+    "type": "shot_blocked",
+    "text": "Attempt blocked. Matthias Ginter (SC Freiburg) right footed shot from the centre of the box is blocked."
+  },
+  {
+    "event_id": 15,
+    "time": "16'",
+    "type": "corner",
+    "text": "Corner, SC Freiburg. Conceded by Sadio Mané."
+  },
+  {
+    "event_id": 16,
+    "time": "17'",
+    "type": "offside",
+    "text": "Offside, FC Bayern München. Leroy Sané tries a through ball, but Sadio Mané is caught offside."
+  },
+  {
+    "event_id": 17,
+    "time": "21'",
+    "type": "corner",
+    "text": "Attempt saved. Serge Gnabry (FC Bayern München) right footed shot from the centre of the box is saved in the bottom right corner. Assisted by Leon Goretzka."
+  },
+  {
+    "event_id": 18,
+    "time": "23'",
+    "type": "foul_committed",
+    "text": "Foul by Dayot Upamecano (FC Bayern München)."
+  },
+  {
+    "event_id": 19,
+    "time": "23'",
+    "type": "foul_won",
+    "text": "Kevin Schade (SC Freiburg) wins a free kick in the defensive half."
+  },
+  {
+    "event_id": 20,
+    "time": "27'",
+    "type": "corner",
+    "text": "Corner, FC Bayern München. Conceded by Vincenzo Grifo."
+  },
+  {
+    "event_id": 21,
+    "time": "28'",
+    "type": "foul_committed",
+    "text": "Foul by Serge Gnabry (FC Bayern München)."
+  },
+  {
+    "event_id": 22,
+    "time": "28'",
+    "type": "foul_won",
+    "text": "Nicolas Höfler (SC Freiburg) wins a free kick in the defensive half."
+  },
+  {
+    "event_id": 23,
+    "time": "29'",
+    "type": "foul_committed",
+    "text": "Foul by Michael Gregoritsch (SC Freiburg)."
+  },
+  {
+    "event_id": 24,
+    "time": "29'",
+    "type": "foul_won",
+    "text": "Noussair Mazraoui (FC Bayern München) wins a free kick in the defensive half."
+  },
+  {
+    "event_id": 25,
+    "time": "33'",
+    "type": "goal",
+    "text": "Goal! FC Bayern München 2, SC Freiburg 0. Eric Choupo-Moting (FC Bayern München) right footed shot from the right side of the box to the bottom left corner. Assisted by Leroy Sané."
+  },
+  {
+    "event_id": 26,
+    "time": "34'",
+    "type": "other",
+    "text": "Hand ball by Leroy Sané (FC Bayern München)."
+  },
+  {
+    "event_id": 27,
+    "time": "36'",
+    "type": "corner",
+    "text": "Corner, FC Bayern München. Conceded by Christian Günter."
+  },
+  {
+    "event_id": 28,
+    "time": "37'",
+    "type": "shot_missed",
+    "text": "Attempt missed. Leroy Sané (FC Bayern München) left footed shot from outside the box is high and wide to the left. Assisted by Noussair Mazraoui."
+  },
+  {
+    "event_id": 29,
+    "time": "39'",
+    "type": "corner",
+    "text": "Attempt saved. Serge Gnabry (FC Bayern München) left footed shot from the left side of the box is saved in the bottom left corner. Assisted by Leroy Sané."
+  },
+  {
+    "event_id": 30,
+    "time": "39'",
+    "type": "corner",
+    "text": "Corner, FC Bayern München. Conceded by Mark Flekken."
+  },
+  {
+    "event_id": 31,
+    "time": "43'",
+    "type": "foul_committed",
+    "text": "Foul by Kiliann Sildillia (SC Freiburg)."
+  },
+  {
+    "event_id": 32,
+    "time": "43'",
+    "type": "foul_won",
+    "text": "Sadio Mané (FC Bayern München) wins a free kick on the left wing."
+  },
+  {
+    "event_id": 33,
+    "time": "45'+1'",
+    "type": "half_time",
+    "text": "First Half ends, FC Bayern München 2, SC Freiburg 0."
+  },
+  {
+    "event_id": 34,
+    "time": "45'",
+    "type": "second_half_start",
+    "text": "Second Half begins FC Bayern München 2, SC Freiburg 0."
+  },
+  {
+    "event_id": 35,
+    "time": "46'",
+    "type": "corner",
+    "text": "Corner, SC Freiburg. Conceded by Joshua Kimmich."
+  },
+  {
+    "event_id": 36,
+    "time": "46'",
+    "type": "shot_blocked",
+    "text": "Attempt blocked. Kevin Schade (SC Freiburg) right footed shot from the right side of the box is blocked. Assisted by Christian Günter with a cross."
+  },
+  {
+    "event_id": 37,
+    "time": "47'",
+    "type": "foul_committed",
+    "text": "Foul by Joshua Kimmich (FC Bayern München)."
+  },
+  {
+    "event_id": 38,
+    "time": "47'",
+    "type": "foul_won",
+    "text": "Michael Gregoritsch (SC Freiburg) wins a free kick in the attacking half."
+  },
+  {
+    "event_id": 39,
+    "time": "49'",
+    "type": "offside",
+    "text": "Offside, FC Bayern München. Leon Goretzka tries a through ball, but Sadio Mané is caught offside."
+  },
+  {
+    "event_id": 40,
+    "time": "50'",
+    "type": "foul_won",
+    "text": "Alphonso Davies (FC Bayern München) wins a free kick in the defensive half."
+  },
+  {
+    "event_id": 41,
+    "time": "50'",
+    "type": "foul_committed",
+    "text": "Foul by Michael Gregoritsch (SC Freiburg)."
+  },
+  {
+    "event_id": 42,
+    "time": "50'",
+    "type": "yellow_card",
+    "text": "Michael Gregoritsch (SC Freiburg) is shown the yellow card for a bad foul."
+  },
+  {
+    "event_id": 43,
+    "time": "51'",
+    "type": "foul_committed",
+    "text": "Foul by Kiliann Sildillia (SC Freiburg)."
+  },
+  {
+    "event_id": 44,
+    "time": "51'",
+    "type": "foul_won",
+    "text": "Sadio Mané (FC Bayern München) wins a free kick in the defensive half."
+  },
+  {
+    "event_id": 45,
+    "time": "51'",
+    "type": "yellow_card",
+    "text": "Kiliann Sildillia (SC Freiburg) is shown the yellow card for a bad foul."
+  },
+  {
+    "event_id": 46,
+    "time": "52'",
+    "type": "other",
+    "text": "Serge Gnabry (FC Bayern München) hits the left post with a right footed shot from the centre of the box."
+  },
+  {
+    "event_id": 47,
+    "time": "52'",
+    "type": "goal",
+    "text": "Goal! FC Bayern München 3, SC Freiburg 0. Leroy Sané (FC Bayern München) left footed shot from outside the box to the bottom left corner. Assisted by Eric Choupo-Moting."
+  },
+  {
+    "event_id": 48,
+    "time": "55'",
+    "type": "goal",
+    "text": "Goal! FC Bayern München 4, SC Freiburg 0. Sadio Mané (FC Bayern München) right footed shot from the centre of the box to the high centre of the goal. Assisted by Serge Gnabry."
+  },
+  {
+    "event_id": 49,
+    "time": "56'",
+    "type": "substitution",
+    "text": "Substitution, SC Freiburg. Noah Weißhaupt replaces Vincenzo Grifo."
+  },
+  {
+    "event_id": 50,
+    "time": "56'",
+    "type": "substitution",
+    "text": "Substitution, SC Freiburg. Woo-Yeong Jeong replaces Kevin Schade."
+  },
+  {
+    "event_id": 51,
+    "time": "57'",
+    "type": "substitution",
+    "text": "Substitution, SC Freiburg. Nils Petersen replaces Michael Gregoritsch."
+  },
+  {
+    "event_id": 52,
+    "time": "57'",
+    "type": "foul_committed",
+    "text": "Foul by Leroy Sané (FC Bayern München)."
+  },
+  {
+    "event_id": 53,
+    "time": "57'",
+    "type": "foul_won",
+    "text": "Kiliann Sildillia (SC Freiburg) wins a free kick in the attacking half."
+  },
+  {
+    "event_id": 54,
+    "time": "58'",
+    "type": "foul_committed",
+    "text": "Foul by Leon Goretzka (FC Bayern München)."
+  },
+  {
+    "event_id": 55,
+    "time": "58'",
+    "type": "foul_won",
+    "text": "Ritsu Doan (SC Freiburg) wins a free kick in the attacking half."
+  },
+  {
+    "event_id": 56,
+    "time": "64'",
+    "type": "substitution",
+    "text": "Substitution, SC Freiburg. Yannik Keitel replaces Nicolas Höfler."
+  },
+  {
+    "event_id": 57,
+    "time": "66'",
+    "type": "substitution",
+    "text": "Substitution, FC Bayern München. Jamal Musiala replaces Eric Choupo-Moting."
+  },
+  {
+    "event_id": 58,
+    "time": "67'",
+    "type": "foul_committed",
+    "text": "Foul by Noussair Mazraoui (FC Bayern München)."
+  },
+  {
+    "event_id": 59,
+    "time": "67'",
+    "type": "foul_won",
+    "text": "Noah Weißhaupt (SC Freiburg) wins a free kick on the left wing."
+  },
+  {
+    "event_id": 60,
+    "time": "68'",
+    "type": "corner",
+    "text": "Corner, SC Freiburg. Conceded by Sven Ulreich."
+  },
+  {
+    "event_id": 61,
+    "time": "69'",
+    "type": "shot_blocked",
+    "text": "Attempt blocked. Matthias Ginter (SC Freiburg) header from the centre of the box is blocked. Assisted by Christian Günter with a cross."
+  },
+  {
+    "event_id": 62,
+    "time": "70'",
+    "type": "foul_won",
+    "text": "Dayot Upamecano (FC Bayern München) wins a free kick in the defensive half."
+  },
+  {
+    "event_id": 63,
+    "time": "70'",
+    "type": "foul_committed",
+    "text": "Foul by Woo-Yeong Jeong (SC Freiburg)."
+  },
+  {
+    "event_id": 64,
+    "time": "72'",
+    "type": "foul_committed",
+    "text": "Foul by Woo-Yeong Jeong (SC Freiburg)."
+  },
+  {
+    "event_id": 65,
+    "time": "72'",
+    "type": "foul_won",
+    "text": "Leon Goretzka (FC Bayern München) wins a free kick in the attacking half."
+  },
+  {
+    "event_id": 66,
+    "time": "75'",
+    "type": "substitution",
+    "text": "Substitution, SC Freiburg. Lucas Höler replaces Ritsu Doan."
+  },
+  {
+    "event_id": 67,
+    "time": "76'",
+    "type": "substitution",
+    "text": "Substitution, FC Bayern München. Mathys Tel replaces Leroy Sané."
+  },
+  {
+    "event_id": 68,
+    "time": "76'",
+    "type": "substitution",
+    "text": "Substitution, FC Bayern München. Benjamin Pavard replaces Matthijs de Ligt."
+  },
+  {
+    "event_id": 69,
+    "time": "76'",
+    "type": "substitution",
+    "text": "Substitution, FC Bayern München. Marcel Sabitzer replaces Leon Goretzka."
+  },
+  {
+    "event_id": 70,
+    "time": "78'",
+    "type": "corner",
+    "text": "Corner, FC Bayern München. Conceded by Noah Weißhaupt."
+  },
+  {
+    "event_id": 71,
+    "time": "79'",
+    "type": "substitution",
+    "text": "Substitution, FC Bayern München. Josip Stanisic replaces Noussair Mazraoui because of an injury."
+  },
+  {
+    "event_id": 72,
+    "time": "80'",
+    "type": "goal",
+    "text": "Goal! FC Bayern München 5, SC Freiburg 0. Marcel Sabitzer (FC Bayern München) right footed shot from the centre of the box to the bottom left corner."
+  },
+  {
+    "event_id": 73,
+    "time": "83'",
+    "type": "foul_committed",
+    "text": "Foul by Woo-Yeong Jeong (SC Freiburg)."
+  },
+  {
+    "event_id": 74,
+    "time": "83'",
+    "type": "foul_won",
+    "text": "Joshua Kimmich (FC Bayern München) wins a free kick on the left wing."
+  },
+  {
+    "event_id": 75,
+    "time": "84'",
+    "type": "foul_committed",
+    "text": "Foul by Nils Petersen (SC Freiburg)."
+  },
+  {
+    "event_id": 76,
+    "time": "84'",
+    "type": "foul_won",
+    "text": "Joshua Kimmich (FC Bayern München) wins a free kick in the defensive half."
+  },
+  {
+    "event_id": 77,
+    "time": "85'",
+    "type": "corner",
+    "text": "Corner, FC Bayern München. Conceded by Philipp Lienhart."
+  },
+  {
+    "event_id": 78,
+    "time": "86'",
+    "type": "other",
+    "text": "Hand ball by Mathys Tel (FC Bayern München)."
+  },
+  {
+    "event_id": 79,
+    "time": "88'",
+    "type": "shot_missed",
+    "text": "Attempt missed. Mathys Tel (FC Bayern München) right footed shot from the centre of the box is too high."
+  },
+  {
+    "event_id": 80,
+    "time": "89'",
+    "type": "shot_missed",
+    "text": "Attempt missed. Sadio Mané (FC Bayern München) right footed shot from outside the box is high and wide to the right."
+  },
+  {
+    "event_id": 81,
+    "time": "90'",
+    "type": "shot_missed",
+    "text": "Attempt missed. Noah Weißhaupt (SC Freiburg) right footed shot from the centre of the box misses to the left. Assisted by Lucas Höler."
+  },
+  {
+    "event_id": 82,
+    "time": "90'",
+    "type": "full_time",
+    "text": "Second Half ends, FC Bayern München 5, SC Freiburg 0."
+  },
+  {
+    "event_id": 83,
+    "time": "-",
+    "type": "full_time",
+    "text": "Match ends, FC Bayern München 5, SC Freiburg 0."
+  },
+  {
+    "event_id": 84,
+    "time": "-",
+    "type": "full_time",
+    "text": "Match ends, FC Bayern München 5, SC Freiburg 0."
+  }
+]
