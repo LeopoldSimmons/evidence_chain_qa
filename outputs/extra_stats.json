@@ -68,21 +68,21 @@
   "ablation": [
     {
       "variant": "纯BM25检索",
-      "precision": 0.5417,
-      "recall": 0.5417,
-      "evidence_f1": 0.5417
+      "precision": 0.4872,
+      "recall": 0.7038,
+      "evidence_f1": 0.5423
     },
     {
-      "variant": "BM25+事件加权",
-      "precision": 0.4861,
-      "recall": 0.4861,
-      "evidence_f1": 0.4861
+      "variant": "BM25+事件/实体过滤",
+      "precision": 0.5641,
+      "recall": 0.8346,
+      "evidence_f1": 0.6308
     },
     {
       "variant": "完整证据链系统",
       "precision": 1.0,
-      "recall": 1.0,
-      "evidence_f1": 1.0
+      "recall": 0.9692,
+      "evidence_f1": 0.9808
     }
   ]
 }

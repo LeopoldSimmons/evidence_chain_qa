@@ -87,30 +87,50 @@ docs = [system._event_to_document(e) for e in system.events]
 doc_tokens = [char_ngrams(doc) for doc in docs]
 bm25 = BM25(doc_tokens)
 
-# helper: infer target types using existing system, but no rule chain
-def bm25_only(question, k):
+# helper: 消融实验统一采用固定 top_k=6，而不是按人工证据数量取 k。
+# 这样可以同时观察候选证据的冗余程度和漏检程度，平均准确率与平均召回率不再必然相同。
+def bm25_only(question, k=6):
     q_tokens = char_ngrams(question)
     idxs = [idx for idx, _ in bm25.rank(q_tokens, top_k=k)]
     return [system.events[i]['event_id'] for i in idxs]
 
-def weighted_retrieve(question, k):
-    return [e['event_id'] for e, _ in system.retrieve(question, top_k=k)]
+def bm25_event_entity_filter(question, k=6):
+    target_types = set(system.infer_target_event_types(question))
+    target_team = system.extract_target_team(question)
+    ranked_events = [system.events[idx] for idx, _ in bm25.rank(char_ngrams(question), top_k=len(system.events))]
+    filtered = []
+    for e in ranked_events:
+        ok = True
+        if target_types and e.get('type') not in target_types:
+            ok = False
+        if target_team and e.get('team') != target_team:
+            ok = False
+        if ok:
+            filtered.append(e)
+    seen = {e['event_id'] for e in filtered}
+    for e in ranked_events:
+        if len(filtered) >= k:
+            break
+        if e['event_id'] not in seen:
+            filtered.append(e)
+            seen.add(e['event_id'])
+    return [e['event_id'] for e in filtered[:k]]
 
-def full_chain(question, k):
+def full_chain(question, k=6):
     return system.answer(question)['evidence_ids'][:k]
 
 variants = {
     '纯BM25检索': bm25_only,
-    'BM25+事件加权': weighted_retrieve,
+    'BM25+事件/实体过滤': bm25_event_entity_filter,
     '完整证据链系统': full_chain,
 }
 abla = []
+FIXED_TOP_K = 6
 for name, fn in variants.items():
     f1s, ps, rs = [], [], []
     for item in qa_items:
         gold = set(item['evidence'])
-        # 对纯检索变体，取与人工证据数量相同的top-k，避免过多冗余证据影响公平性。
-        pred = set(fn(item['question'], max(1, len(gold))))
+        pred = set(fn(item['question'], FIXED_TOP_K))
         tp = len(pred & gold)
         p = tp / len(pred) if pred else 0.0
         r = tp / len(gold) if gold else 0.0
