@@ -1,13 +1,13 @@
 # 基于证据链检索增强的足球赛事长文本问答系统
 
-本项目是《自然语言处理》课程报告的配套代码。系统以足球比赛 commentary 为输入，实现事件检索、证据链抽取和解释式问答。当前样例数据已替换为：**德甲第10轮 拜仁慕尼黑 5-0 弗赖堡**。
+本项目是《自然语言处理》课程报告的配套代码。系统以足球比赛 commentary 为输入，实现事件检索、证据链抽取和解释式问答。
 
 ## 1. 项目结构
 
 ```text
 evidence_chain_qa_project/
 ├── data/
-│   ├── raw_commentary.json        # 原始 ESPN commentary 数据
+│   ├── raw_commentary.json        # 原始 commentary 数据
 │   ├── commentary_sample.json     # 转换后的课程作业样例数据
 │   └── qa_gold.json               # 复杂证据链问答标注集
 ├── scripts/
@@ -48,7 +48,7 @@ evidence_chain_qa_project/
 
 ## 3. 运行环境
 
-推荐 Python 3.9 及以上。使用以下指令安装环境。
+推荐 Python 3.8 及以上。使用以下指令安装环境。
 
 ```bash
 pip install -r requirements.txt
@@ -78,7 +78,7 @@ outputs/evaluation.json
 
 ## 5. 重新转换原始数据
 
-如需从原始 ESPN commentary 文件重新生成 `commentary_sample.json`：
+如需从原始 commentary 文件重新生成 `commentary_sample.json`：
 
 ```bash
 python scripts/convert_commentary.py
