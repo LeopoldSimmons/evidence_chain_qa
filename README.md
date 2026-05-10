@@ -48,7 +48,7 @@ evidence_chain_qa_project/
 
 ## 3. 运行环境
 
-推荐 Python 3.9 及以上。命令行版本不需要额外依赖；网页版本需要安装 `streamlit`。
+推荐 Python 3.9 及以上。使用以下指令安装环境。
 
 ```bash
 pip install -r requirements.txt
@@ -107,9 +107,9 @@ streamlit run streamlit_app.py
 
 这类问题要求系统从多条 commentary 事件中组合证据，因此更适合体现“证据发现能力”。
 
-## 补充统计图表
+## 统计图表
 
-报告中新增的事件类型分布、问题类型分布、证据链长度分布和消融实验图表由以下脚本生成：
+报告中事件类型分布、问题类型分布、证据链长度分布和消融实验图表由以下脚本生成：
 
 ```bash
 python scripts/extra_analysis.py
