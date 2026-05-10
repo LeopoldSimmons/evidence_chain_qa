@@ -123,6 +123,3 @@ python scripts/extra_analysis.py
 - `ablation_comparison.png`
 - `extra_stats.json`
 - `ablation_results.json`
-
-
-图表配色采用课程报告指定配色：#2B307A, #77C2F3, #F7EEF6, #D8A0C7, #A96FB0。
